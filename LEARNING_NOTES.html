@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to AI & Python - Learning Notes</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+        }
+        h1, h2, h3 { color: #1a1f2c; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+        h1 { font-size: 2.2em; border-bottom: 2px solid #0366d6; }
+        h2 { font-size: 1.5em; margin-top: 24px; }
+        h3 { font-size: 1.2em; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #dfe2e5; padding: 10px 14px; text-align: left; }
+        th { background-color: #f6f8fa; font-weight: 600; }
+        tr:nth-child(even) { background-color: #fafbfc; }
+        code { background-color: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 0.9em; }
+        pre { background-color: #f6f8fa; padding: 16px; border-radius: 6px; overflow-x: auto; font-family: monospace; }
+        blockquote { border-left: 4px solid #0366d6; margin: 0; padding-left: 16px; color: #57606a; font-style: italic; }
+        .meta-badge { display: inline-block; background-color: #0366d6; color: white; padding: 4px 10px; border-radius: 12px; font-size: 0.85em; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+    <span class="meta-badge">Internship Module Deliverable</span>
+    <h1>Introduction to AI & Python — Learning Notes</h1>
+    <p><strong>Author:</strong> Abishek J (<code>abi323728-ctrl</code>)<br>
+    <strong>Module:</strong> Introduction to AI & Python<br>
+    <strong>Deliverable Status:</strong> Verified & Complete</p>
+
+    <hr>
+
+    <h2>1. Foundations of Artificial Intelligence & Machine Learning</h2>
+    <h3>What is Artificial Intelligence?</h3>
+    <p>Artificial Intelligence (AI) refers to the computational systems and algorithms engineered to perform cognitive tasks that historically required human intelligence. These tasks include perception, linguistic reasoning, pattern extraction, decision-making, and autonomous problem-solving.</p>
+    <ul>
+        <li><strong>Narrow AI (Weak AI):</strong> Specialized systems designed to excel at a singular, well-defined task (e.g., Apple Siri, Tesla Autopilot, AlphaGo, Spam filters). All currently deployed AI systems represent Narrow AI.</li>
+        <li><strong>General AI (AGI):</strong> Theoretical systems with human-grade generalized reasoning across diverse domains without requiring task-specific retraining.</li>
+    </ul>
+
+    <h3>What is Machine Learning?</h3>
+    <p>Machine Learning is a subset of AI that provides systems the capability to learn and optimize performance from empirical data without being explicitly hand-coded with procedural rules.</p>
+    <blockquote>"A computer program is said to learn from experience E with respect to some task T and performance measure P, if its performance on T, as measured by P, improves with experience E." — Tom Mitchell (1997)</blockquote>
+
+    <h3>The Paradigm Shift</h3>
+    <ul>
+        <li><strong>Traditional Programming:</strong> <code>Data + Explicit Rules =&gt; Output / Answers</code></li>
+        <li><strong>Machine Learning:</strong> <code>Data + Answers =&gt; Learned Rules / Model</code></li>
+    </ul>
+
+    <h2>2. Hierarchy: AI vs Machine Learning vs Deep Learning</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dimension</th>
+                <th>Artificial Intelligence (AI)</th>
+                <th>Machine Learning (ML)</th>
+                <th>Deep Learning (DL)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Scope</strong></td>
+                <td>Broad umbrella of all intelligent systems</td>
+                <td>Subset of AI learning from empirical data</td>
+                <td>Subset of ML utilizing multi-layered neural networks</td>
+            </tr>
+            <tr>
+                <td><strong>Feature Extraction</strong></td>
+                <td>Handcrafted heuristics and rules</td>
+                <td>Manual feature engineering by data scientists</td>
+                <td>Automatic hierarchical representation learning</td>
+            </tr>
+            <tr>
+                <td><strong>Data Dependency</strong></td>
+                <td>Can run on small rule bases</td>
+                <td>Medium structured tabular datasets</td>
+                <td>Large-scale unstructured data (images, text, audio)</td>
+            </tr>
+            <tr>
+                <td><strong>Hardware</strong></td>
+                <td>Standard CPU</td>
+                <td>Standard CPU / optional GPU</td>
+                <td>High-performance parallel GPUs / TPUs</td>
+            </tr>
+            <tr>
+                <td><strong>Primary Examples</strong></td>
+                <td>A* Search, Rule-based Chatbots, Expert Systems</td>
+                <td>Random Forest, SVM, Logistic Regression</td>
+                <td>Transformers (GPT, Gemini), CNNs (ResNet)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Real-World Applications of AI</h2>
+    <ul>
+        <li><strong>Healthcare:</strong> Deep learning CNNs detecting tumors and anomalies in MRI/CT scans with radiologist-level accuracy; AlphaFold predicting 3D protein structures.</li>
+        <li><strong>Autonomous Systems:</strong> Sensor fusion combining LiDAR, radar, and camera streams to execute real-time object classification and path planning.</li>
+        <li><strong>Finance & Security:</strong> Real-time anomaly detection screening transaction flows to identify credit card fraud; high-frequency algorithmic market analysis.</li>
+        <li><strong>Natural Language Processing (NLP):</strong> Large Language Models (LLMs) executing multi-turn reasoning, translation, and code synthesis.</li>
+    </ul>
+
+    <h2>4. Python for AI & Data Science</h2>
+    <p>Python is the predominant language in AI due to its readability, modularity, and rich ecosystem (NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow).</p>
+
+    <h3>Core Primitives Illustrated:</h3>
+    <pre><code># 1. Variables and Types
+model_name = "Neural Network"
+learning_rate = 0.001
+epochs = 20
+
+# 2. Conditionals
+if learning_rate &lt;= 0.01:
+    status = "Stable Convergence"
+
+# 3. Loops and Iterations
+for epoch in range(1, epochs + 1):
+    print(f"Training Epoch {epoch}/{epochs}")
+
+# 4. Functions and Reusability
+def calculate_loss(y_true, y_pred):
+    return (y_true - y_pred) ** 2</code></pre>
+
+    <h2>5. Mini-Projects Implemented in Repository</h2>
+    <ul>
+        <li><strong>Student Grade Manager:</strong> Dynamic record processing, statistical metrics, and ASCII reporting.</li>
+        <li><strong>Smart Calculator:</strong> Mathematical evaluator with error recovery and session memory logging.</li>
+        <li><strong>Rule-Based AI Assistant:</strong> Symbolic conversational agent matching intents via tokenization.</li>
+        <li><strong>AI Sentiment Analyzer:</strong> Lexicon-based polarity scoring with negation context awareness.</li>
+    </ul>
+
+</body>
+</html>
+

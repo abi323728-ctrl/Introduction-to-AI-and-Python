@@ -18,32 +18,34 @@ SCRIPTS_TO_EXECUTE = [
     "02_mini_projects/02_smart_calculator.py",
     "02_mini_projects/03_rule_based_chatbot.py",
     "02_mini_projects/04_ai_sentiment_analyzer.py",
+    "02_mini_projects/05_personal_expense_tracker.py",
+    "02_mini_projects/06_secure_password_generator.py",
+    "02_mini_projects/07_number_guessing_game.py",
 ]
 
 def main():
     print("=" * 75)
-    print("      INTRODUCTION TO AI & PYTHON: MASTER VERIFICATION RUNNER        ")
+    print("      PYTHON MINI PROJECTS: MASTER VERIFICATION RUNNER        ")
     print("=" * 75)
     
     passed_count = 0
     start_time = time.time()
 
     for idx, script in enumerate(SCRIPTS_TO_EXECUTE, start=1):
-        print(f"\n[{idx}/{len(SCRIPTS_TO_EXECUTE)}] Executing: {script} ...")
+        print(f"[{idx:02d}/{len(SCRIPTS_TO_EXECUTE):02d}] Executing: {script:<55} ...", end=" ")
         res = subprocess.run([sys.executable, script], capture_output=True, text=True)
         
         if res.returncode == 0:
-            print(f"       -> [PASSED]")
+            print("[PASSED]")
             passed_count += 1
         else:
-            print(f"       -> [FAILED]")
+            print("[FAILED]")
             print(res.stderr)
 
     elapsed = time.time() - start_time
-    print("\n" + "=" * 75)
+    print("=" * 75)
     print(f"VERIFICATION SUMMARY: {passed_count}/{len(SCRIPTS_TO_EXECUTE)} scripts passed in {elapsed:.2f} seconds.")
     print("=" * 75)
 
 if __name__ == "__main__":
     main()
-

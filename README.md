@@ -1,151 +1,185 @@
-# Introduction to AI & Python 🚀
+# Python Mini Projects & AI Fundamentals 🚀
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code Style: PEP 8](https://img.shields.io/badge/code%20style-PEP%208-green.svg)](https://pep8.org/)
 [![Status: Completed](https://img.shields.io/badge/Status-Completed-success.svg)]()
+[![Verification: 12/12 Passed](https://img.shields.io/badge/Tests-12%2F12%20Passing-brightgreen.svg)]()
 
-A comprehensive repository for the **Introduction to AI & Python** internship module. This repository contains foundational Python scripts, beginner-friendly mini-projects demonstrating classical rule-based AI and NLP concepts, and in-depth academic learning notes.
+A production-grade Python repository built for the **AI & Python Internship**, covering **Module 01 (Introduction to AI & Python)** and **Module 02 (Python Mini Projects)**. Contains 7 complete mini-projects, comprehensive core fundamentals, and academic learning documentation.
 
 ---
 
 ## 📋 Table of Contents
-- [Key Objectives](#-key-objectives)
-- [Repository Structure](#-repository-structure)
-- [Module Breakdown](#-module-breakdown)
-  - [1. Python Fundamentals](#1-python-fundamentals)
-  - [2. Hands-on Mini Projects](#2-hands-on-mini-projects)
+- [Curriculum & Objectives](#-curriculum--objectives)
+- [Repository Architecture](#-repository-architecture)
+- [Interactive Main Application (`main.py`)](#-interactive-main-application-mainpy)
+- [Featured Python Mini Projects (Module 02)](#-featured-python-mini-projects-module-02)
+  - [1. Personal Expense Tracker](#1-personal-expense-tracker)
+  - [2. Secure Password Generator](#2-secure-password-generator)
+  - [3. Number Guessing Challenge Game](#3-number-guessing-challenge-game)
+  - [4. Student Grade Manager & Calculator](#4-student-grade-manager--calculator)
+  - [5. Smart Scientific Calculator](#5-smart-scientific-calculator)
+  - [6. Rule-Based AI Chatbot](#6-rule-based-ai-chatbot)
+  - [7. AI Sentiment Analysis Engine](#7-ai-sentiment-analysis-engine)
+- [Python Language Fundamentals (Module 01)](#-python-language-fundamentals-module-01)
 - [Comprehensive Learning Notes](#-comprehensive-learning-notes)
-- [Quickstart: Installation & Execution](#-quickstart-installation--execution)
-- [Automated Master Test Runner](#-automated-master-test-runner)
-- [Author & Submission Details](#-author--submission-details)
+- [Quickstart: How to Run](#-quickstart-how-to-run)
+- [Automated Master Verification Test Suite](#-automated-master-verification-test-suite)
+- [Author & Submission Info](#-author--submission-info)
 
 ---
 
-## 🎯 Key Objectives
+## 🎯 Curriculum & Objectives
 
-This repository satisfies all key deliverables outlined in the module syllabus:
-1. **Understand AI & Machine Learning Foundations:** Definitions, history, paradigms (Supervised, Unsupervised, Reinforcement).
-2. **Differentiate AI vs ML vs Deep Learning:** Hierarchical relations, feature engineering differences, and comparison matrix.
-3. **Explore Real-World Applications:** Healthcare, autonomous mobility, finance, NLP, and ethical AI considerations.
-4. **Master Python Programming Primitives:** Variables, data types, conditionals, loops, lists, and functions.
-5. **Develop Beginner-Friendly Python Programs:** Functional applications and AI-concept demonstrators.
+### Module 01: Introduction to AI & Python
+- Understand AI vs Machine Learning vs Deep Learning paradigms.
+- Study real-world AI use cases across Healthcare, Autonomous Mobility, NLP, and Finance.
+- Master Python programming syntax: variables, conditionals, loops, lists, and functions.
+
+### Module 02: Python Mini Projects
+- Apply Python primitives to build real-world, functional applications.
+- Implement error handling, JSON persistence, statistical analytics, and algorithmic strategies.
+- Maintain production code quality adhering to PEP 8 standards and modular software design.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Architecture
 
 ```text
 INTERSHIP/
 │
-├── README.md                                 # Main repository overview and documentation
-├── LEARNING_NOTES.md                         # In-depth study notes (ready for Google Docs/Notion)
-├── run_all_demos.py                          # Master execution runner verifying all scripts
-├── .gitignore                                # Git ignore file for bytecode & environments
+├── main.py                                   # Master Interactive CLI Application Launcher
+├── README.md                                 # Complete documentation & project manual
+├── LEARNING_NOTES.md                         # Full study guide (Google Docs / Notion format)
+├── LEARNING_NOTES.html                       # Styled HTML version of learning notes
+├── run_all_demos.py                          # Automated 12-test verification runner
+├── .gitignore                                # Git ignore file for cache & environments
 │
-├── 01_python_fundamentals/                   # Core Python language concepts
-│   ├── 01_variables_and_datatypes.py         # Variables, types, type-casting, f-strings
-│   ├── 02_operators_and_conditionals.py      # Comparison, logic operators, decision branching
-│   ├── 03_loops_and_iterations.py            # For & while loops, range, break, continue
-│   ├── 04_lists_and_tuples.py                # Slicing, list methods, comprehensions, tuples
-│   └── 05_functions_and_scope.py             # Function definitions, parameters, return, scope
+├── 01_python_fundamentals/                   # Core Python Primitives (Module 01)
+│   ├── 01_variables_and_datatypes.py         # Type system, casting, arithmetic, f-strings
+│   ├── 02_operators_and_conditionals.py      # Logic operators, branching, ternary logic
+│   ├── 03_loops_and_iterations.py            # For/while loops, range, enumerate, break/continue
+│   ├── 04_lists_and_tuples.py                # Slicing, list mutation, comprehensions, tuples
+│   └── 05_functions_and_scope.py             # Functions, parameters, multiple return, scope
 │
-└── 02_mini_projects/                         # Hands-on beginner applications
-    ├── 01_student_grade_manager.py           # Grade processing, statistical distributions
-    ├── 02_smart_calculator.py                # Calculator with history memory & error handling
+└── 02_mini_projects/                         # Hands-on Applications (Module 02)
+    ├── 01_student_grade_manager.py           # Student performance tracker & grade report
+    ├── 02_smart_calculator.py                # Calculator with history logging & error handling
     ├── 03_rule_based_chatbot.py              # Classical Symbolic AI / NLP rule-based assistant
-    └── 04_ai_sentiment_analyzer.py           # NLP Sentiment scoring & negation handling
+    ├── 04_ai_sentiment_analyzer.py           # NLP sentiment classifier & negation handling
+    ├── 05_personal_expense_tracker.py        # Expense & budget monitor with JSON persistence
+    ├── 06_secure_password_generator.py       # Password generator with entropy security rating
+    └── 07_number_guessing_game.py           # Game with AI binary search optimal solver
 ```
 
 ---
 
-## 💻 Module Breakdown
+## 🎮 Interactive Main Application (`main.py`)
 
-### 1. Python Fundamentals (`01_python_fundamentals/`)
+Launch all projects from a single unified interactive console menu:
 
-- **`01_variables_and_datatypes.py`**
-  - Explores primitive data types: `str`, `int`, `float`, `bool`.
-  - Type-casting conversions between string and numeric types.
-  - Basic arithmetic operations and modern f-string interpolation.
-
-- **`02_operators_and_conditionals.py`**
-  - Comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`).
-  - Boolean logic using `and`, `or`, and `not`.
-  - Multi-branch decision pipelines (`if`, `elif`, `else`) and ternary operators.
-
-- **`03_loops_and_iterations.py`**
-  - Definite iteration using `for` loops and `range(start, stop, step)`.
-  - Iteration with indexing using `enumerate()`.
-  - Indefinite iteration with `while` loops.
-  - Flow control using `break` and `continue`.
-
-- **`04_lists_and_tuples.py`**
-  - List indexing and non-destructive slicing (`[start:stop:step]`).
-  - In-place mutation methods: `.append()`, `.insert()`, `.remove()`, `.pop()`, `.sort()`.
-  - Pythonic list comprehensions for concise data transformation.
-  - Immutable sequences with `tuples` and tuple unpacking.
-
-- **`05_functions_and_scope.py`**
-  - Function declaration syntax (`def`), parameters, default arguments, and docstrings.
-  - Multiple return values using tuple packing.
-  - Variable scoping rules (Local vs Global namespace).
-  - Introduction to anonymous `lambda` functions.
-
----
-
-### 2. Hands-on Mini Projects (`02_mini_projects/`)
-
-- **`01_student_grade_manager.py`**
-  - Ingests student performance records into structured dictionaries.
-  - Automatically maps percentage scores to academic letter grades (`A` to `F`).
-  - Computes class average, top performer, and minimum score.
-  - Generates a formatted ASCII console grade sheet.
-
-- **`02_smart_calculator.py`**
-  - Evaluates basic and exponential arithmetic expressions.
-  - Includes robust error handling for mathematical exceptions (e.g., division by zero).
-  - Maintains an internal audit log of all calculations performed during the session.
-
-- **`03_rule_based_chatbot.py`**
-  - Demonstrates the principles of **Symbolic AI / Expert Systems**.
-  - Tokenizes input, strips punctuation, and matches user queries to intents.
-  - Answers common questions regarding AI, Machine Learning, Deep Learning, and Python.
-
-- **`04_ai_sentiment_analyzer.py`**
-  - Demonstrates introductory **Natural Language Processing (NLP)** classification.
-  - Evaluates text polarity using positive and negative lexicon dictionaries.
-  - Detects negation contexts (e.g., distinguishing between *"good"* vs *"not good"*).
-  - Outputs classified category (`POSITIVE`, `NEUTRAL`, `NEGATIVE`) with confidence percentage.
-
----
-
-## 📖 Comprehensive Learning Notes
-
-Complete theoretical documentation is compiled in [LEARNING_NOTES.md](LEARNING_NOTES.md). Topics covered include:
-- **Foundations of AI & ML:** Definitions, historical transition from Symbolic AI to Data-Driven paradigms.
-- **The AI vs ML vs DL Hierarchy:** Clear nested diagrams, feature extraction comparison, data requirements, and hardware needs.
-- **Real-World Applications:** In-depth case studies across Healthcare, Autonomous Driving, Finance, NLP, and E-commerce.
-- **Python for AI:** Architectural reasons behind Python's leadership in data science and machine learning.
-- **Ethics & Safety:** Addressing bias, fairness, transparency, and data privacy in modern AI systems.
-
-> **Tip for Submission:** The content inside `LEARNING_NOTES.md` is formatted with standard GitHub Markdown and can be directly copied and pasted into **Google Docs** or **Notion**.
-
----
-
-## ⚡ Quickstart: Installation & Execution
-
-### Prerequisites
-- Python 3.10 or higher installed on your system.
-- Git installed.
-
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+python main.py
 ```
 
-### 2. Running Individual Fundamentals Scripts
+```text
+======================================================================
+           PYTHON MINI PROJECTS SUITE - MODULE 02             
+======================================================================
+Select a project from the menu to launch:
+  [1] Personal Expense Tracker
+  [2] Secure Password Generator
+  [3] Number Guessing Challenge Game
+  [4] Student Grade Manager & Calculator
+  [5] Smart Scientific Calculator
+  [6] Rule-Based AI Assistant Chatbot
+  [7] AI Sentiment Analysis Engine
+  [8] Run Complete Verification Test Suite
+  [0] Exit Application
+======================================================================
+```
+
+---
+
+## 🚀 Featured Python Mini Projects (Module 02)
+
+### 1. Personal Expense Tracker
+- **File:** [`02_mini_projects/05_personal_expense_tracker.py`](02_mini_projects/05_personal_expense_tracker.py)
+- **Features:**
+  - Categorizes spending into Food, Transport, Utilities, Entertainment, Education, etc.
+  - Generates budget utilization metrics and ASCII category breakdown bars.
+  - Persists financial records into a local JSON file (`expenses_data.json`).
+
+### 2. Secure Password Generator
+- **File:** [`02_mini_projects/06_secure_password_generator.py`](02_mini_projects/06_secure_password_generator.py)
+- **Features:**
+  - Configurable length, uppercase, lowercase, numbers, and symbols.
+  - Excludes visually ambiguous characters (`l, 1, I, 0, O`).
+  - Mathematically calculates **information entropy in bits** ($E = L \times \log_2(R)$) to rate password strength (Weak, Moderate, Strong, Enterprise Grade).
+
+### 3. Number Guessing Challenge Game
+- **File:** [`02_mini_projects/07_number_guessing_game.py`](02_mini_projects/07_number_guessing_game.py)
+- **Features:**
+  - Multiple difficulty presets (Easy: 1-50, Medium: 1-100, Hard: 1-500).
+  - Dynamic proximity feedback ("Too High", "Too Low").
+  - Includes an **AI Optimal Solver** demonstrating logarithmic binary search ($O(\log N)$) efficiency and performance scoring.
+
+### 4. Student Grade Manager & Calculator
+- **File:** [`02_mini_projects/01_student_grade_manager.py`](02_mini_projects/01_student_grade_manager.py)
+- **Features:**
+  - Parses student records and assigns academic letter grades (`A` to `F`).
+  - Calculates class average, standard distribution, top ranker, and lowest score.
+  - Generates clean tabular ASCII report cards.
+
+### 5. Smart Scientific Calculator
+- **File:** [`02_mini_projects/02_smart_calculator.py`](02_mini_projects/02_smart_calculator.py)
+- **Features:**
+  - Arithmetic evaluation (`+`, `-`, `*`, `/`, `^`).
+  - Graceful exception recovery for undefined operations (division by zero).
+  - Maintains a session history memory log.
+
+### 6. Rule-Based AI Chatbot
+- **File:** [`02_mini_projects/03_rule_based_chatbot.py`](02_mini_projects/03_rule_based_chatbot.py)
+- **Features:**
+  - Illustrates the foundation of **Symbolic AI / Expert Systems**.
+  - Token-level query classification, punctuation normalization, and intent matching.
+  - Answers domain queries about AI, Machine Learning, Deep Learning, and Python.
+
+### 7. AI Sentiment Analysis Engine
+- **File:** [`02_mini_projects/04_ai_sentiment_analyzer.py`](02_mini_projects/04_ai_sentiment_analyzer.py)
+- **Features:**
+  - Intro-level Natural Language Processing (NLP) text classifier.
+  - Lexicon-based polarity scoring with negation awareness (e.g. *"not good"* vs *"good"*).
+  - Outputs sentiment classification (`POSITIVE`, `NEUTRAL`, `NEGATIVE`) with confidence percentage.
+
+---
+
+## ⚡ Quickstart: How to Run
+
+### Clone the Repository
 ```bash
+git clone https://github.com/abi323728-ctrl/Introduction-to-AI-and-Python.git
+cd Introduction-to-AI-and-Python
+```
+
+### Launch Interactive CLI
+```bash
+python main.py
+```
+
+### Run Any Script Individually
+```bash
+# Mini Projects:
+python 02_mini_projects/05_personal_expense_tracker.py
+python 02_mini_projects/06_secure_password_generator.py
+python 02_mini_projects/07_number_guessing_game.py
+python 02_mini_projects/01_student_grade_manager.py
+python 02_mini_projects/02_smart_calculator.py
+python 02_mini_projects/03_rule_based_chatbot.py
+python 02_mini_projects/04_ai_sentiment_analyzer.py
+
+# Fundamentals:
 python 01_python_fundamentals/01_variables_and_datatypes.py
 python 01_python_fundamentals/02_operators_and_conditionals.py
 python 01_python_fundamentals/03_loops_and_iterations.py
@@ -153,60 +187,44 @@ python 01_python_fundamentals/04_lists_and_tuples.py
 python 01_python_fundamentals/05_functions_and_scope.py
 ```
 
-### 3. Running Mini Projects
-```bash
-python 02_mini_projects/01_student_grade_manager.py
-python 02_mini_projects/02_smart_calculator.py
-python 02_mini_projects/03_rule_based_chatbot.py
-python 02_mini_projects/04_ai_sentiment_analyzer.py
-```
-
 ---
 
-## 🧪 Automated Master Test Runner
+## 🧪 Automated Master Verification Test Suite
 
-You can execute all modules and projects simultaneously using the included verification runner:
+Verify all 12 modules and projects in under 1 second with the built-in test runner:
 
 ```bash
 python run_all_demos.py
 ```
 
-**Sample Output:**
 ```text
 ===========================================================================
-      INTRODUCTION TO AI & PYTHON: MASTER VERIFICATION RUNNER        
+      PYTHON MINI PROJECTS: MASTER VERIFICATION RUNNER        
 ===========================================================================
-
-[1/9] Executing: 01_python_fundamentals/01_variables_and_datatypes.py ...
-       -> [PASSED]
-[2/9] Executing: 01_python_fundamentals/02_operators_and_conditionals.py ...
-       -> [PASSED]
-[3/9] Executing: 01_python_fundamentals/03_loops_and_iterations.py ...
-       -> [PASSED]
-[4/9] Executing: 01_python_fundamentals/04_lists_and_tuples.py ...
-       -> [PASSED]
-[5/9] Executing: 01_python_fundamentals/05_functions_and_scope.py ...
-       -> [PASSED]
-[6/9] Executing: 02_mini_projects/01_student_grade_manager.py ...
-       -> [PASSED]
-[7/9] Executing: 02_mini_projects/02_smart_calculator.py ...
-       -> [PASSED]
-[8/9] Executing: 02_mini_projects/03_rule_based_chatbot.py ...
-       -> [PASSED]
-[9/9] Executing: 02_mini_projects/04_ai_sentiment_analyzer.py ...
-       -> [PASSED]
-
+[01/12] Executing: 01_python_fundamentals/01_variables_and_datatypes.py    ... [PASSED]
+[02/12] Executing: 01_python_fundamentals/02_operators_and_conditionals.py ... [PASSED]
+[03/12] Executing: 01_python_fundamentals/03_loops_and_iterations.py       ... [PASSED]
+[04/12] Executing: 01_python_fundamentals/04_lists_and_tuples.py           ... [PASSED]
+[05/12] Executing: 01_python_fundamentals/05_functions_and_scope.py        ... [PASSED]
+[06/12] Executing: 02_mini_projects/01_student_grade_manager.py            ... [PASSED]
+[07/12] Executing: 02_mini_projects/02_smart_calculator.py                 ... [PASSED]
+[08/12] Executing: 02_mini_projects/03_rule_based_chatbot.py               ... [PASSED]
+[09/12] Executing: 02_mini_projects/04_ai_sentiment_analyzer.py            ... [PASSED]
+[10/12] Executing: 02_mini_projects/05_personal_expense_tracker.py         ... [PASSED]
+[11/12] Executing: 02_mini_projects/06_secure_password_generator.py        ... [PASSED]
+[12/12] Executing: 02_mini_projects/07_number_guessing_game.py             ... [PASSED]
 ===========================================================================
-VERIFICATION SUMMARY: 9/9 scripts passed in 0.75 seconds.
+VERIFICATION SUMMARY: 12/12 scripts passed in 0.60 seconds.
 ===========================================================================
 ```
 
 ---
 
-## 📬 Author & Submission Details
+## 📬 Author & Submission Info
 
-- **Module:** Introduction to AI & Python
-- **GitHub Repository Deliverable:** Provided via repository link.
-- **Learning Notes Deliverable:** Provided via Google Docs / Notion public view link.
+- **Author:** Abishek J
+- **GitHub Profile:** [@abi323728-ctrl](https://github.com/abi323728-ctrl)
+- **Module Deliverables:**
+  - **Module 01 (Intro to AI & Python):** [GitHub Repo](https://github.com/abi323728-ctrl/Introduction-to-AI-and-Python) | [Learning Notes](LEARNING_NOTES.md)
+  - **Module 02 (Python Mini Project):** [GitHub Repo](https://github.com/abi323728-ctrl/Introduction-to-AI-and-Python)
 - **License:** MIT
-

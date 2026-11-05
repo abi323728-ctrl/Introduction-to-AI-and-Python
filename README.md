@@ -7,17 +7,19 @@
 [![Verification: 12/12 Passed](https://img.shields.io/badge/Tests-12%2F12%20Passing-brightgreen.svg)]()
 [![Colab Ready](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abi323728-ctrl/Introduction-to-AI-and-Python/blob/main/03_data_analysis_and_visualization/Module_03_Data_Analysis_and_Visualization.ipynb)
 
-A production-grade Python repository built for the **AI & Python Internship**, covering:
+A production-grade Python repository built for the **AI & Python Internship** at **Codomax Digital Solutions**, covering:
 - **Module 01: Introduction to AI & Python**
 - **Module 02: Python Mini Projects**
 - **Module 03: Data Analysis & Visualization (NumPy, Pandas, Matplotlib, Google Colab)**
 - **Module 04: Machine Learning Fundamentals (Scikit-Learn, Classification, Regression, Google Colab)**
+- **Module 05: AI Tools & Mini Project (ChatGPT, Gemini, Copilot, Developer Copilot)**
 
 ---
 
 ## 📋 Table of Contents
 - [Curriculum & Objectives](#-curriculum--objectives)
 - [Repository Architecture](#-repository-architecture)
+- [Module 05: AI Tools & Mini Project](#-module-05-ai-tools--mini-project)
 - [Module 04: Machine Learning Fundamentals (Colab)](#-module-04-machine-learning-fundamentals)
 - [Module 03: Data Analysis & Visualization (Colab)](#-module-03-data-analysis--visualization)
 - [Module 02: Python Mini Projects](#-module-02-python-mini-projects)
@@ -46,10 +48,27 @@ A production-grade Python repository built for the **AI & Python Internship**, c
 - Create Bar charts, Line charts, and Pie charts using Matplotlib.
 
 ### Module 04: Machine Learning Fundamentals (Colab)
-- **Objective 1:** Learn the end-to-end Machine Learning workflow (Ingestion $\to$ Preprocessing $\to$ Split $\to$ Train $\to$ Evaluate $\to$ Inference).
-- **Objective 2:** Train Machine Learning models using Scikit-learn (K-Nearest Neighbors, Random Forest, Linear Regression).
-- **Objective 3:** Use beginner-friendly datasets (Iris Flower Classification and Student Exam Score Prediction).
-- **Objective 4:** Evaluate models using Accuracy, Confusion Matrix, Classification Report, Mean Squared Error, and $R^2$ Score.
+- Learn the end-to-end Machine Learning workflow (Ingestion $\to$ Preprocessing $\to$ Split $\to$ Train $\to$ Evaluate $\to$ Inference).
+- Train Machine Learning models using Scikit-learn (K-Nearest Neighbors, Random Forest, Linear Regression).
+- Use beginner-friendly datasets (Iris Flower Classification and Student Exam Score Prediction).
+- Evaluate models using Accuracy, Confusion Matrix, Classification Report, Mean Squared Error, and $R^2$ Score.
+
+### Module 05: AI Tools & Mini Project
+- **Objective 1:** Explore AI tools such as ChatGPT, Gemini, or Microsoft Copilot.
+- **Objective 2:** Learn how AI tools assist with coding, research, and productivity.
+- **Objective 3:** Build a simple AI-powered application or improve one of previous projects.
+- **Objective 4:** Share learning journey on LinkedIn tagging **Codomax Digital Solutions**.
+
+---
+
+## ⚡ Module 05: AI Tools & Developer Copilot
+
+- **AI Developer Copilot Script:** [`05_ai_tools_and_mini_project/ai_developer_copilot.py`](05_ai_tools_and_mini_project/ai_developer_copilot.py)
+  - **Static Code Complexity Analyzer:** Determines algorithmic Big-O complexity and suggests hash set/dict refactoring.
+  - **Unit Test Synthesizer:** Automatically synthesizes standard and boundary unit tests for functions.
+  - **Technical Research Summarizer:** Distills articles down to essential bullet takeaways and metrics.
+  - **Prompt Engineering Studio:** Optimizes informal prompts into production-ready structured AI prompts.
+- **AI Tools Comparative Research Guide:** [`05_ai_tools_and_mini_project/AI_TOOLS_RESEARCH_GUIDE.md`](05_ai_tools_and_mini_project/AI_TOOLS_RESEARCH_GUIDE.md)
 
 ---
 

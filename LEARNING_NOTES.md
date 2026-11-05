@@ -3,9 +3,7 @@
 **Module:** Introduction to AI & Python  
 **Author:** AI & Machine Learning Track Intern  
 **Topic Coverage:** AI Fundamentals, ML vs DL, Real-World AI Applications, Python Core Primitives, and Practical Implementations  
-
 ---
-
 ## Table of Contents
 1. [Module 1: Foundations of Artificial Intelligence & Machine Learning](#module-1-foundations-of-artificial-intelligence--machine-learning)
    - 1.1 What is Artificial Intelligence (AI)?

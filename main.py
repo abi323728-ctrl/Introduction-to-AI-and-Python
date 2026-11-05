@@ -17,7 +17,8 @@ PROJECTS = {
     "5": ("Smart Scientific Calculator", "02_mini_projects/02_smart_calculator.py"),
     "6": ("Rule-Based AI Assistant Chatbot", "02_mini_projects/03_rule_based_chatbot.py"),
     "7": ("AI Sentiment Analysis Engine", "02_mini_projects/04_ai_sentiment_analyzer.py"),
-    "8": ("Run Complete Verification Test Suite", "run_all_demos.py"),
+    "8": ("AI Developer & Productivity Copilot (Module 05)", "05_ai_tools_and_mini_project/ai_developer_copilot.py"),
+    "9": ("Run Complete Verification Test Suite", "run_all_demos.py"),
 }
 
 def print_banner():

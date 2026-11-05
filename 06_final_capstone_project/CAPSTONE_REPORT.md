@@ -87,3 +87,4 @@ python 06_final_capstone_project/run_capstone.py
 # 2. Run real-time inference on customer profiles
 python 06_final_capstone_project/predict_cli.py
 ```
+

@@ -11,12 +11,14 @@ A production-grade Python repository built for the **AI & Python Internship**, c
 - **Module 01: Introduction to AI & Python**
 - **Module 02: Python Mini Projects**
 - **Module 03: Data Analysis & Visualization (NumPy, Pandas, Matplotlib, Google Colab)**
+- **Module 04: Machine Learning Fundamentals (Scikit-Learn, Classification, Regression, Google Colab)**
 
 ---
 
 ## 📋 Table of Contents
 - [Curriculum & Objectives](#-curriculum--objectives)
 - [Repository Architecture](#-repository-architecture)
+- [Module 04: Machine Learning Fundamentals (Colab)](#-module-04-machine-learning-fundamentals)
 - [Module 03: Data Analysis & Visualization (Colab)](#-module-03-data-analysis--visualization)
 - [Module 02: Python Mini Projects](#-module-02-python-mini-projects)
 - [Module 01: Python Language Fundamentals](#-module-01-python-language-fundamentals)
@@ -39,10 +41,29 @@ A production-grade Python repository built for the **AI & Python Internship**, c
 - Implement error handling, JSON persistence, statistical analytics, and algorithmic strategies.
 
 ### Module 03: Data Analysis & Visualization (Colab)
-- **Objective 1:** Learn how to work with datasets using Pandas and NumPy.
-- **Objective 2:** Load and explore a sample dataset (`.head()`, `.info()`, `.describe()`).
-- **Objective 3:** Perform simple data cleaning and analysis (null imputation, duplicate removal, feature engineering).
-- **Objective 4:** Create charts like bar charts, line charts, and pie charts using Matplotlib.
+- Learn how to work with datasets using Pandas and NumPy.
+- Load, explore, and clean sample datasets (missing value imputation, duplicate removal).
+- Create Bar charts, Line charts, and Pie charts using Matplotlib.
+
+### Module 04: Machine Learning Fundamentals (Colab)
+- **Objective 1:** Learn the end-to-end Machine Learning workflow (Ingestion $\to$ Preprocessing $\to$ Split $\to$ Train $\to$ Evaluate $\to$ Inference).
+- **Objective 2:** Train Machine Learning models using Scikit-learn (K-Nearest Neighbors, Random Forest, Linear Regression).
+- **Objective 3:** Use beginner-friendly datasets (Iris Flower Classification and Student Exam Score Prediction).
+- **Objective 4:** Evaluate models using Accuracy, Confusion Matrix, Classification Report, Mean Squared Error, and $R^2$ Score.
+
+---
+
+## 🤖 Module 04: Machine Learning Fundamentals
+
+Open the complete Jupyter Notebook directly in Google Colab:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abi323728-ctrl/Introduction-to-AI-and-Python/blob/main/04_machine_learning_fundamentals/Module_04_Machine_Learning_Fundamentals.ipynb)
+
+- **Jupyter Notebook:** [`04_machine_learning_fundamentals/Module_04_Machine_Learning_Fundamentals.ipynb`](04_machine_learning_fundamentals/Module_04_Machine_Learning_Fundamentals.ipynb)
+- **Python Workflow Pipeline:** [`04_machine_learning_fundamentals/ml_workflow_pipeline.py`](04_machine_learning_fundamentals/ml_workflow_pipeline.py)
+- **Generated Evaluation Visualizations (`04_machine_learning_fundamentals/charts/`):**
+  - **Confusion Matrix:** Iris species classification performance heatmap
+  - **Feature Importance:** Random forest morphological weight breakdown
+  - **Regression Plot:** Actual vs. Predicted exam score fit line ($R^2 = 0.962$)
 
 ---
 

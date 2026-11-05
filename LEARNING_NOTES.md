@@ -32,6 +32,7 @@
      - Iteration and Loops
      - Lists and Collections
      - Functions and Scope
+     
 5. [Module 5: Hands-on Practical Projects Summary](#module-5-hands-on-practical-projects-summary)
 6. [Summary & Next Steps](#summary--next-steps)
 

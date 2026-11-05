@@ -58,3 +58,4 @@ To extract maximum precision from LLMs, engineers should follow structured promp
 1. **Verification-First Mindset:** Never run AI-generated code without manual review and unit test validation.
 2. **Data Privacy & Governance:** Do not paste proprietary API secrets, passwords, or personally identifiable customer data (PII) into public AI prompts.
 3. **Intellectual Property Awareness:** Ensure generated code adheres to open-source licenses (MIT, Apache 2.0).
+

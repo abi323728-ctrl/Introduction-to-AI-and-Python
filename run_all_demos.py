@@ -22,6 +22,7 @@ SCRIPTS_TO_EXECUTE = [
     "02_mini_projects/06_secure_password_generator.py",
     "02_mini_projects/07_number_guessing_game.py",
     "05_ai_tools_and_mini_project/ai_developer_copilot.py",
+    "06_final_capstone_project/run_capstone.py",
 ]
 
 def main():

@@ -9,16 +9,18 @@
 
 A production-grade Python repository built for the **AI & Python Internship** at **Codomax Digital Solutions**, covering:
 - **Module 01: Introduction to AI & Python**
-- **Module 02: Python Mini Projects**
+- **Module 02: Python Mini Projects (7 Applications)**
 - **Module 03: Data Analysis & Visualization (NumPy, Pandas, Matplotlib, Google Colab)**
 - **Module 04: Machine Learning Fundamentals (Scikit-Learn, Classification, Regression, Google Colab)**
-- **Module 05: AI Tools & Mini Project (ChatGPT, Gemini, Copilot, Developer Copilot)**
+- **Module 05: AI Tools & Productivity Copilot (ChatGPT, Gemini, Copilot)**
+- **Module 06: Final AI & ML Capstone Project (End-to-End Customer Churn Intelligence System)**
 
 ---
 
 ## 📋 Table of Contents
 - [Curriculum & Objectives](#-curriculum--objectives)
 - [Repository Architecture](#-repository-architecture)
+- [Module 06: Final AI & ML Capstone Project](#-module-06-final-ai--ml-capstone-project)
 - [Module 05: AI Tools & Mini Project](#-module-05-ai-tools--mini-project)
 - [Module 04: Machine Learning Fundamentals (Colab)](#-module-04-machine-learning-fundamentals)
 - [Module 03: Data Analysis & Visualization (Colab)](#-module-03-data-analysis--visualization)
@@ -54,10 +56,31 @@ A production-grade Python repository built for the **AI & Python Internship** at
 - Evaluate models using Accuracy, Confusion Matrix, Classification Report, Mean Squared Error, and $R^2$ Score.
 
 ### Module 05: AI Tools & Mini Project
-- **Objective 1:** Explore AI tools such as ChatGPT, Gemini, or Microsoft Copilot.
-- **Objective 2:** Learn how AI tools assist with coding, research, and productivity.
-- **Objective 3:** Build a simple AI-powered application or improve one of previous projects.
-- **Objective 4:** Share learning journey on LinkedIn tagging **Codomax Digital Solutions**.
+- Explore AI tools such as ChatGPT, Gemini, or Microsoft Copilot.
+- Learn how AI tools assist with coding, research, and productivity.
+- Build an AI-powered Developer Copilot and Prompt Optimization Studio.
+
+### Module 06: Final AI & ML Capstone Project
+- **Objective 1:** Build a complete AI/ML project from scratch using real-world data.
+- **Objective 2:** Train, evaluate, and benchmark multiple algorithms (Logistic Regression vs Random Forest vs Gradient Boosting).
+- **Objective 3:** Implement live inference decision engine with prescriptive business interventions.
+- **Objective 4:** Publish on GitHub and present on LinkedIn tagging **Codomax Digital Solutions**.
+
+---
+
+## 🏆 Module 06: Final AI & ML Capstone Project
+
+**Project Name:** Customer Retention & Churn Intelligence Platform  
+**Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abi323728-ctrl/Introduction-to-AI-and-Python/blob/main/06_final_capstone_project/Final_Capstone_AI_ML_Project.ipynb)  
+**Report:** [`06_final_capstone_project/CAPSTONE_REPORT.md`](06_final_capstone_project/CAPSTONE_REPORT.md)
+
+### Key Achievements & Metrics:
+- **Champion Model:** Gradient Boosting Classifier
+- **Test Accuracy:** **84.50%**
+- **ROC-AUC Score:** **0.9070**
+- **F1-Score:** **0.8410**
+- **Artifacts:** Serialized model (`best_churn_model.pkl`), feature scaler, and 4 high-resolution evaluation charts (`charts/`).
+- **Interactive CLI:** [`06_final_capstone_project/predict_cli.py`](06_final_capstone_project/predict_cli.py) provides real-time customer risk classification and prescriptive business intervention dispatching.
 
 ---
 

@@ -59,3 +59,4 @@ if __name__ == "__main__":
         subprocess.run([sys.executable, "run_all_demos.py"])
     else:
         main()
+

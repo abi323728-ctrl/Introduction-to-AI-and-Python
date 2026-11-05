@@ -1,28 +1,25 @@
-# Python Mini Projects & AI Fundamentals 🚀
+# Python Mini Projects, AI Fundamentals & Data Analytics 🚀
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code Style: PEP 8](https://img.shields.io/badge/code%20style-PEP%208-green.svg)](https://pep8.org/)
 [![Status: Completed](https://img.shields.io/badge/Status-Completed-success.svg)]()
 [![Verification: 12/12 Passed](https://img.shields.io/badge/Tests-12%2F12%20Passing-brightgreen.svg)]()
+[![Colab Ready](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abi323728-ctrl/Introduction-to-AI-and-Python/blob/main/03_data_analysis_and_visualization/Module_03_Data_Analysis_and_Visualization.ipynb)
 
-A production-grade Python repository built for the **AI & Python Internship**, covering **Module 01 (Introduction to AI & Python)** and **Module 02 (Python Mini Projects)**. Contains 7 complete mini-projects, comprehensive core fundamentals, and academic learning documentation.
+A production-grade Python repository built for the **AI & Python Internship**, covering:
+- **Module 01: Introduction to AI & Python**
+- **Module 02: Python Mini Projects**
+- **Module 03: Data Analysis & Visualization (NumPy, Pandas, Matplotlib, Google Colab)**
 
 ---
 
 ## 📋 Table of Contents
 - [Curriculum & Objectives](#-curriculum--objectives)
 - [Repository Architecture](#-repository-architecture)
-- [Interactive Main Application (`main.py`)](#-interactive-main-application-mainpy)
-- [Featured Python Mini Projects (Module 02)](#-featured-python-mini-projects-module-02)
-  - [1. Personal Expense Tracker](#1-personal-expense-tracker)
-  - [2. Secure Password Generator](#2-secure-password-generator)
-  - [3. Number Guessing Challenge Game](#3-number-guessing-challenge-game)
-  - [4. Student Grade Manager & Calculator](#4-student-grade-manager--calculator)
-  - [5. Smart Scientific Calculator](#5-smart-scientific-calculator)
-  - [6. Rule-Based AI Chatbot](#6-rule-based-ai-chatbot)
-  - [7. AI Sentiment Analysis Engine](#7-ai-sentiment-analysis-engine)
-- [Python Language Fundamentals (Module 01)](#-python-language-fundamentals-module-01)
+- [Module 03: Data Analysis & Visualization (Colab)](#-module-03-data-analysis--visualization)
+- [Module 02: Python Mini Projects](#-module-02-python-mini-projects)
+- [Module 01: Python Language Fundamentals](#-module-01-python-language-fundamentals)
 - [Comprehensive Learning Notes](#-comprehensive-learning-notes)
 - [Quickstart: How to Run](#-quickstart-how-to-run)
 - [Automated Master Verification Test Suite](#-automated-master-verification-test-suite)
@@ -40,7 +37,28 @@ A production-grade Python repository built for the **AI & Python Internship**, c
 ### Module 02: Python Mini Projects
 - Apply Python primitives to build real-world, functional applications.
 - Implement error handling, JSON persistence, statistical analytics, and algorithmic strategies.
-- Maintain production code quality adhering to PEP 8 standards and modular software design.
+
+### Module 03: Data Analysis & Visualization (Colab)
+- **Objective 1:** Learn how to work with datasets using Pandas and NumPy.
+- **Objective 2:** Load and explore a sample dataset (`.head()`, `.info()`, `.describe()`).
+- **Objective 3:** Perform simple data cleaning and analysis (null imputation, duplicate removal, feature engineering).
+- **Objective 4:** Create charts like bar charts, line charts, and pie charts using Matplotlib.
+
+---
+
+## 📊 Module 03: Data Analysis & Visualization
+
+Open the complete Jupyter Notebook directly in Google Colab:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abi323728-ctrl/Introduction-to-AI-and-Python/blob/main/03_data_analysis_and_visualization/Module_03_Data_Analysis_and_Visualization.ipynb)
+
+- **Jupyter Notebook:** [`03_data_analysis_and_visualization/Module_03_Data_Analysis_and_Visualization.ipynb`](03_data_analysis_and_visualization/Module_03_Data_Analysis_and_Visualization.ipynb)
+- **Python Pipeline:** [`03_data_analysis_and_visualization/data_analysis_pipeline.py`](03_data_analysis_and_visualization/data_analysis_pipeline.py)
+- **Dataset:** [`03_data_analysis_and_visualization/sample_sales_data.csv`](03_data_analysis_and_visualization/sample_sales_data.csv)
+- **Generated Charts (`03_data_analysis_and_visualization/charts/`):**
+  - **Bar Chart:** Total Revenue by Product Category
+  - **Line Chart:** Monthly Revenue Trajectory (Jan - Jun 2026)
+  - **Pie Chart:** Distribution of Customer Payment Methods
+  - **Demographics Chart:** Customer Age Histogram & Outlier Boxplot
 
 ---
 
